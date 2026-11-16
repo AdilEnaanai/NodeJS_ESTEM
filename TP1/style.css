@@ -32,3 +32,47 @@ table>tbody>tr>td>img{
     height: 20px;
     cursor: pointer;
 }
+
+#modal{
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.724);
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    position: fixed;
+    top:35%;
+    left: 35%;
+    box-shadow: 10px 10px 5px gray;
+    display: none;
+
+}
+#fermer{
+    float: right;
+    background-color: rgb(205, 3, 3);
+    border:none;
+    border-radius: 3px;
+    margin: 1px;
+    cursor: pointer;
+}
+#modal > .footer{
+    text-align: right;
+    margin: 2px;
+}
+#annuler{
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 2px;
+    cursor: pointer;
+}
+#supprimer{
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 2px;
+    cursor: pointer;
+}
+.header>span{
+    margin: 5px;
+    font-size: large;
+}
